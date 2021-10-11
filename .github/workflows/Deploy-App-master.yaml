@@ -20,7 +20,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout code
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v2
 
       # build the docker image and give it the name main
       - name: Build image
