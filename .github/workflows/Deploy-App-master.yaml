@@ -32,10 +32,10 @@ jobs:
           main
       # push changes
       - name: push changes to remote
-      run: |
-        git config --global user.name ${{ secrets.GH_USER }}
-        git config --global user.email ${{ secrets.GH_MAIL }}
+        run: |
+          git config --global user.name ${{ secrets.GH_USER }}
+          git config --global user.email ${{ secrets.GH_MAIL }}
 
-        git add docs
-        git commit -m "GitHub Action: Build Book"
-        git push
+          git add docs
+          git commit -m "GitHub Action: Build Book"
+          git push
