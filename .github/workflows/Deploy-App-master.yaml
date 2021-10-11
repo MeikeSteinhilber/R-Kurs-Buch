@@ -30,6 +30,9 @@ jobs:
         run: >
           docker run
           main
+    steps:
+      - name: Checkout code
+      - uses: actions/checkout@main
       # push changes
       - name: push changes to remote
         run: |
