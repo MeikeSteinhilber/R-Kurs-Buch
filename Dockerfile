@@ -1,7 +1,7 @@
 # Base image https://hub.docker.com/u/rocker/
 FROM rocker/shiny:latest
 
-RUN install2.r bookdown knitr rmarkdown psych dplyr
+RUN install2.r bookdown knitr rmarkdown psych dplyr tidyverse
 
 # system libraries of general use
 ## install debian packages
