@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name ${{ secrets.GH_USER }}
           git config --global user.email ${{ secrets.GH_MAIL }}
-          Rscript -e 'source(deploy.R)'
+          Rscript -e 'source("deploy.R")'
           git add -A
           git commit -m "GitHub Action: Build Book"
           git push
