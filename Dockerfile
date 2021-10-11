@@ -31,7 +31,6 @@ COPY DESCRIPTION DESCRIPTION
 COPY index.Rmd  index.Rmd
 COPY README.md  README.md
 COPY deploy.R deploy.R
-COPY /R ./R
 COPY /chapters ./chapters
 COPY starwars.RDS starwars.RDS
 COPY style.css  style.css
