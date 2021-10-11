@@ -32,6 +32,7 @@ COPY index.Rmd  index.Rmd
 COPY README.md  README.md
 COPY deploy.R deploy.R
 COPY /chapters ./chapters
+COPY /docs ./docs
 COPY starwars.RDS starwars.RDS
 COPY style.css  style.css
 CMD Rscript deploy.R
