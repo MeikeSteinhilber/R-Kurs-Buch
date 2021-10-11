@@ -1,3 +1,4 @@
 # build the book
-rmarkdown::render_site(output_format = 'bookdown::gitbook', encoding = 'UTF-8')
+# rmarkdown::render_site(output_format = 'bookdown::gitbook', encoding = 'UTF-8')
+bookdown::render_book(output_format = 'bookdown::gitbook')
 

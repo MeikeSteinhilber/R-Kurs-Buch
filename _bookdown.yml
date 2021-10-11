@@ -3,4 +3,11 @@ language:
   ui:
 output_dir: "docs"
 
+rmd_files:
+  [
+    "index.Rmd",
+    "chapters/01-Einfuehrung.Rmd",
+    "chapters/03-Datenaufbereitung.Rmd"
+  ]
+
 
