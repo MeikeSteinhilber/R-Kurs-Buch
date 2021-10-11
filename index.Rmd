@@ -1,5 +1,5 @@
 --- 
-title: "R Kurs Unterlagen"
+title: "R Kurs Buch"
 author: |
  Anna-Lena Schubert,
  Jan Goettmann,
@@ -11,14 +11,14 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-url: https://amd-lab.github.io/R-Kurs-Unterlagen/index.html
+url: https://amd-lab.github.io/R-Kurs-Buch/
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
   Dies sind R Kurs Unterlagen für Lehre in verschiedenen studentischen
   Veranstaltungen.
 
 link-citations: yes
-github-repo:  AMD-Lab/R-Kurs-Unterlagen
+github-repo:  AMD-Lab/R-Kurs-Buch
 
 ---
 

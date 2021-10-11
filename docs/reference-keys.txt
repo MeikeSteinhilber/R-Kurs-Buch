@@ -6,6 +6,15 @@ thm:tri
 einführung
 datenstruktur
 datenaufbereitung
+einführung-in-dplyr-und-tidyverse
+dplyr-die-wichtigsten-befehle
+übung-1
+dplyr-der-piping-operator
+beispiel
+übung-2
+dplyr-neue-variablen-mit-mutate-berechnen
+beispiel-1
+aufgabe-bis-zum-nächsten-mal
 deskreptive-statistik
 graphiken
 tipps
@@ -18,3 +27,4 @@ citations
 equations
 theorems-and-proofs
 callout-blocks
+cover-image-path-to-the-social-sharing-image-like-imagescover.jpg
